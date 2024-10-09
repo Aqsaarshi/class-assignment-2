@@ -2,26 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.home {
+  color: #fafafa;
+  background-color: black;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.about {
+  color: white;
+  background-color: purple;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.contact {
+  color: black;
+  background-color: lightgreen;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.service {
+  color: rgb(0, 0, 0);
+  background-color: aquamarine;
 }
