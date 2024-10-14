@@ -1,6 +1,13 @@
+import Header from "./component/Header/Header";
+import Hero from "./component/Hero/Hero";
+import Footer from "./component/Footer/Footer";
+import React from "react";
+
 export default function Home() {
   return (
     <div className="home">
+      <Header />
+
       <h1>
         {" "}
         <strong>THIS IS HOME PAGE </strong>
@@ -18,6 +25,8 @@ export default function Home() {
           </li>
         </ul>
       </nav>
+      <Hero />
+      <Footer />
     </div>
   );
 }
